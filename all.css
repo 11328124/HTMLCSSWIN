@@ -47,6 +47,7 @@ table {
 
 body{
     line-height: 150%;
+    padding: 12px;
 }
 .header{
     display:flex;
