@@ -52,6 +52,7 @@ table {
 body{
     line-height: 1.5;
     font-family: Noto Sans TC, sans-serif;
+    margin: 0 auto;
 }
 a {
   text-decoration: none;
@@ -88,7 +89,7 @@ img{
     flex-direction: column;
     justify-content: center;
 }
-.blue{
+.hashtag{
     display:flex;
 }
 .date{
@@ -110,8 +111,6 @@ img{
     margin-left:8px;
     color: #FFFFFF;
     font-size: 16px;
-;
-
 }
 .title{
     font-size: 28px;
@@ -129,8 +128,7 @@ img{
     }
 }
 .content{
-    padding: 12px;
-    line-height: 150%;
+    padding:0 12px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -138,17 +136,18 @@ img{
     max-width: 636px;           
     margin: 0 auto;  
 }
-.content h1{
+.content h2{
     display:block;
     font-size: 28px;
     font-weight: 700;
     color:blue;
     margin-top:24px;
+    line-height: 1.5;
 }
-.content1 h1{
+.content1 h2{
     margin-top:80px;
 }
-.content h2{
+.content h3{
     display:block;
     font-size: 20px;
     font-weight: 700;
@@ -163,31 +162,35 @@ img{
 .content1 p{
     margin-top: 24px;
 }
-.ol{
-    margin-top: 8px;
-}
-ol, ul{
+.list{
     padding-left: 1.5em; 
+}
+.ulist{
+    margin-top: 12px;
 }
 .content a{
     color: blue;
 }
-.endtext, .tip{
+.conclusion{
     background: #EDEDED;
     border-radius: 24px;
     padding: 24px;
     font-size: 16px;
     font-weight: 700;
+    margin-top: 24px;
 }
 .content img{
     margin-top:48px;
+}
+.contact{
+    text-decoration: underline;
 }
 .extend{        
     max-width: 636px;           
     margin: 0 auto; 
     padding: 12px; 
 }
-.extend h1{
+.extend h2{
     color:blue;
     font-size: 28px;
     font-weight: 700;
@@ -230,6 +233,9 @@ ol, ul{
     .footer{
         display: none;
     }
+}
+.mail{
+    color:#000;
 }
 .footer ul{
     list-style: none;
