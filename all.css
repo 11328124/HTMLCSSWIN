@@ -240,13 +240,11 @@ img{
     display:flex;
     justify-content: space-evenly;
 }
-.footertext{
-    display: flex;
-    
-    justify-content: center;
+.footertext {
+    text-align: center;
+    margin: 24px auto;
 }
-.footertext p{
-    margin:24px auto;
-}
+
+
 
 
