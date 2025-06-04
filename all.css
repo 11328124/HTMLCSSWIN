@@ -205,9 +205,6 @@ img{
     justify-content: space-around;
     margin: 0 auto;
     margin-top: 48px;
-    margin-bottom: 80px;
-    border-bottom: 1px solid #6C757D;
-    padding-bottom: 80px;
 }
 .button a{
     padding: 8px 16px;
@@ -224,9 +221,11 @@ img{
 .footer{
     display:flex;
     justify-content:space-around;
+    align-items: center;
     margin:80px auto;
     font-size: 32px;
     font-weight: 500;
+    border-top: 1px solid #6C757D;
 }
 @media(max-width:636px){
     .footer{
@@ -241,6 +240,12 @@ img{
     display:flex;
     justify-content: space-evenly;
 }
-
+.footertext{
+    display: flex;
+    justify-content: center;
+}
+.footertext p{
+    margin:24px auto;
+}
 
 
