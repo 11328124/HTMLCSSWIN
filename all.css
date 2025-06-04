@@ -242,6 +242,7 @@ img{
 }
 .footertext{
     display: flex;
+    
     justify-content: center;
 }
 .footertext p{
