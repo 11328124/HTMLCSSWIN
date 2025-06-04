@@ -142,7 +142,6 @@ img{
     font-weight: 700;
     color:blue;
     margin-top:24px;
-    line-height: 1.5;
 }
 .content1 h2{
     margin-top:80px;
@@ -242,11 +241,6 @@ img{
     display:flex;
     justify-content: space-evenly;
 }
-.footertext{
-    font-size: 16px;
-    font-weight: 500;
-    margin: 24px auto;
-    text-align: center;
-}
+
 
 
